@@ -1,0 +1,27 @@
+{
+  "name": "flight_recorder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^6.3.1",
+    "@google-cloud/storage": "^3.1.0",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "grpc": "^1.24.2",
+    "jade": "^1.11.0",
+    "net": "^1.0.2",
+    "url": "^0.11.0"
+  },
+  "repository": {},
+  "engines": {
+    "node": "14.15.x"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "^3.3.0"
+  }
+}
